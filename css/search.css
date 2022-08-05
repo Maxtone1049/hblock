@@ -1,0 +1,680 @@
+﻿
+
+
+body {
+    background-color: #ebebeb;
+}
+
+p {
+    line-height: 1.7em;
+    color: #4e4e4e;
+    
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.boosted {
+    background: rgb(232, 249, 224) !important;
+    border-bottom: 1px solid green !important;
+    border-top: 1px solid green !important;
+}
+
+
+.property_info .price {
+    color: #F1390B !important;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.activeBtn {
+    background-color: #f06c3b !important;
+}
+
+span.lsNotifs, span.lsNotifs2, span.lsNotifs3, span.lsNotifs4 {
+    padding: 2px 5px;
+}
+
+span.lsNotifs {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+span.lsNotifs2 {
+    background-color: #3798ff;
+    color: #FFF;
+}
+
+span.lsNotifs3 {
+    background-color: #e0805d;
+    color: #FFF;
+}
+
+span.lsNotifs4 {
+    background-color: #ef2c2c;
+    color: white;
+}
+
+p, small {
+    font-size: 13px !important;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.mediaLink:hover {
+    transition: all 0.3s ease;
+    opacity: 0.9;
+}
+
+.content {
+    width: calc(100% - 250px);
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.page-content .more {
+    font-size: 13px;
+    text-align: right;
+    background-color: #FFF;
+    padding: 10px 10px;
+}
+
+.page-content .nav-pills .nav-link {
+    border-radius: .25rem;
+    padding: 3px 18px;
+    background-color: #20c065 !important;
+    border: 1px solid #0ba94f;
+    margin-right: 13px;
+    color: #fff !important;
+    border-radius: 1px;
+    font-weight: bold;
+}
+
+.page-content .nav {
+    margin-bottom: 26px;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.page-content .loader {
+    float: right;
+    width: 16px;
+    background-image: url(https://files.hutbay.com/images/f-loader.gif);
+    height: 11px;
+}
+
+.page-content #cart .item div {
+    padding-bottom: 0;
+    font-size: 12px;
+}
+
+.page-content #cart .item  {
+    
+    padding-bottom: 0;
+}
+
+.page-content .nav-link.active {
+    background-color: #fff !important;
+    border-color: #ccc #ccc #fff;
+    color: #099847 !important;
+}
+
+.property_info a {
+    color: #00a !important;
+}
+
+.text-red, a.text-red {
+    color: red !important;
+}
+
+#contently span.help {
+    float: right;
+}
+
+    #contently span.help i {
+        font-size: 16px;
+    }
+
+span.help span {
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+    .page-content .welcomeLnk input {
+        padding: 1px 12px;
+        margin-top: 7px;
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+
+.page-content .welcomeLnk select {
+    padding: 1px 12px;
+    margin-top: 7px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.page-content .welcome {
+    margin-top: 8px;
+}
+
+    .page-content .welcome i {
+        font-size: 30px;
+        margin-bottom: 10px;
+        color: #328e5a;
+    }
+
+.page-content .welcome div {
+    font-size: 13px;
+}
+
+.page-content .welcome span {
+    display: block;
+}
+
+#pagination {
+    text-align: right;
+    display: inline-block;
+}
+
+.pagination li {
+    background-color: #20c065;
+    color: white;
+}
+
+.pagination li a, .pagination li span {
+    padding: .4rem .65rem;
+    font-weight: 600;
+}
+
+.page-item.active .page-link {
+    background-color: #20c065;
+    border-color: #20c065;
+}
+
+.pagination li a {
+    color: green !important;
+}
+
+.content.active {
+    width: 100%;
+}
+
+
+.recentLs .title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #F1390B !important;
+}
+
+
+.property_info label {
+    padding: 0px;
+    color: #989898;
+    font-size: 12px;
+}
+
+.cardly .media a img {
+    width: 200px;
+    height: 150px;
+}
+
+.cardly .recentLs {
+    font-size: 12px !important;
+}
+
+.page-content .recentLs {
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #CCC;
+    padding: 15px 15px !important;
+    background: #fff;
+}
+
+.cardly .expiring p{
+    font-size: 11px !important;
+}
+
+.posBottom {
+    position: absolute;
+    bottom: 0;
+}
+
+a.mediaLink {
+    position: relative;
+    float: left;
+}
+
+a.mediaLink img {
+    width: 223px;
+}
+
+.boostedAd {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.btn-boost {
+    padding: 6px 12px;
+}
+
+.mediaCount {
+    width: 100%;
+    background: rgba(50, 50, 50, 0.5);
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.coyLogo img {
+    border: 0 none;
+    font-size: 11px;
+    max-width: 100px;
+    overflow: hidden;
+    max-height: 100px;
+    float: right;
+}
+
+.tip {
+    font-size: 14px;
+}
+
+button.blue {
+    background-color: #0066cb !important;
+    color: #ffffff;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: initial
+}
+
+
+
+/* ---------------------------------------------------
+MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+
+    .content {
+        width: 100%;
+    }
+
+    .content.active {
+        width: calc(100% - 250px);
+    }
+
+    .container-fluid {
+        padding: 0;
+    }
+    
+}
+
+.container {
+    width: 100%;
+}
+
+
+
+
+#app-nav {
+    border-bottom: 1px solid #CCC;
+}
+
+#add-property {
+    margin-bottom: 50px;
+}
+
+#contently {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.property_info .recentLs div {
+    padding-bottom: 3px;
+    padding-top: 2px
+}
+
+.property_info .btn-group {
+    padding: 0;
+    border: 1px solid #CCC;
+}
+
+.btn-group .btn-danger {
+    background-color: #efefef;
+    color: black;
+    background-color: #efefef;
+    color: black;
+    border-color: #767676;
+}
+
+.property_info p {
+    padding-bottom: 3px;
+    padding-top: 2px;
+    margin-bottom: 0;
+}
+
+.property_info p.first {
+    padding-bottom: 3px;
+    padding-top: 2px;
+    margin-bottom: 20px;
+}
+
+.property_info form .help-block {
+    color: #949191 !important;
+}
+
+
+.pricePer {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.cardly {
+    border: none;
+    margin-bottom: 40px;
+}
+
+.snippet {
+    margin-bottom: 21px;
+}
+
+.property_info h3 {
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 1px solid #CCC;
+    width: 100%;
+    padding-bottom: 9px;
+}
+
+.property_info h5 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.property_info table {
+    font-size: 1.1em;
+}
+
+button.blue {
+    background-color: #0066cb !important;
+    color: #ffffff;
+}
+
+button.red {
+    color: white;
+    font-weight: bold;
+    background-color: #d05959;
+}
+
+a.button {
+    background-color: #0066cb !important;
+    color: #ffffff !important;
+}
+
+button.red:hover {
+    background-color: red;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.mt-2, .my-2 {
+    margin-bottom: 10px;
+}
+
+div.btnRoom {
+    background-color: #0066cb !important;
+    color: #ffffff;
+    text-align: center;
+    padding: 9px;
+}
+
+span.btnAdd {
+    background-color: #0066cb !important;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+div.btnRoom a {
+    color: white;
+}
+
+#photoUpload {
+    background: #fff;
+    border: 3px dashed #607d8b;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #455a64;
+    font-size: 14px;
+    margin: 0;
+    cursor: pointer;
+    padding: 25px;
+    text-align: center;
+    -webkit-transition: background .15s linear, border .15s linear, color .15s linear, opacity .15s linear;
+    transition: background .15s linear, border .15s linear, color .15s linear, opacity .15s linear;
+}
+
+#photoUpload:hover {
+    background: #cfd8dc;
+    border-color: #546e7a;
+    color: #263238;
+}
+
+.photoPrevBox ul {
+    text-align: center;
+}
+
+.photoPrevBox ul li span {
+    cursor: pointer;
+    color: #0066cb;
+}
+
+div.photoPrevBox1 {
+    padding: 2px;
+}
+
+.photoPrevBox .imageCont {
+    padding: 2px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+#progress {
+    width: 100%;
+    background-color: #ddd;
+    padding: 0;
+}
+
+#progressBar {
+    width: 0%;
+    height: 30px;
+    background-color: #5497da;
+}
+
+textarea#editor {
+    min-height: 150px;
+    visibility: hidden;
+}
+
+.property_info .addList {
+    border: 1px solid #CCC;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.property_info .addList div {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.addList:hover {
+    background-color: #f3f3f3;
+}
+
+.addList a div {
+    color: #1784c7;
+}
+
+.property_info .preview a {
+    border: none;
+    background-color: #07c;
+    padding: 5px 16px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+
+.property_info .preview .fa {
+    margin-right: 9px;
+}
+
+@media (max-width: 960px) {
+    .page-wrapper .page-content {
+        padding-top: 0px;
+    }
+
+    .property_info {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .coyLogo {
+        display: none;
+    }
+
+    div.main-content {
+        padding: 8px 39px;
+    }
+
+    #sidebar {
+        padding: 8px 24px;
+    }
+
+    div.summary {
+        display: none;
+    }
+}
+
+
+
+#sidebar .card h6 {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#sidebar .app-button {
+    padding: 7px 15px;
+    font-weight: normal;
+    color: #FFF !important;
+    font-size: 13px;
+    border-radius: 3px !important;
+}
+
+#resTitle {
+    border-bottom: 1px solid #CCC;
+    background-color: #ffffff;
+    border-top: 1px solid #CCC;
+}
+
+.resTitle {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.resTitle select {
+    padding: 2px 5px;
+    font-size: 11px;
+}
+
+.pagination {
+    margin-bottom: 0;
+    float: right !important;
+}
+
+.resTitle .action {
+    font-size: 11px;
+}
+
+#resultTitle {
+    font-size: 15px;
+    background-color: #FFF;
+    padding: 15px;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+#searchFilter {
+    background-color: #FFF;
+    padding: 25px 3px;
+}
+
+#searchFilter .input-group-text {
+    border-radius: 0;
+    border: 1px solid #919191;
+}
+
+#searchFilter label {
+    color: #505050;
+    font-size: 13px;
+}
+
+
+#searchFilter .app-button {
+    padding: 9px 50px;
+    font-size: 13px;
+    border-radius: 3px !important;
+}
+
+.marketer i {
+    float: right;
+    font-size: 21px;
+    color: #f06c3b;
+    cursor: pointer;
+    padding-right: 11px;
+}
+
+.no-result {
+    padding-top: 20px;
+    margin-bottom: 15px;
+    background-color: #FFF;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #d62929;
+    margin-top: 10px;
+    font-size: 14px;
+}

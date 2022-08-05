@@ -1,0 +1,664 @@
+
+#sec1-container {
+    width: 100%;
+    padding: 0px;
+}
+
+#sec1-container {
+    background: url(/images/about.jpg) repeat scroll center center rgba(0,0,0,0);
+}
+
+    #sec1-container h1 {
+        padding-top: 110px;
+        text-align: center;
+        z-index: 20;
+        padding-bottom: 20px;
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 43px;
+        text-shadow: 0 0 20px rgba(0,0,0,.6), 0 1px 1px rgba(0,0,0,.6);
+    }
+
+
+.sec1Lay {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.53);
+    padding-bottom: 60px;
+    padding-top: 40px;
+    text-align: center;
+    color: #FFF;
+    margin-right: 0;
+    margin-left: 0;
+    text-shadow: 0 0 20px rgba(0,0,0,.6), 0 1px 1px rgba(0,0,0,.6);
+}
+
+.secLay h2 {
+    line-height: 1.3em;
+}
+
+.sec1Lay p {
+    font-size: 17px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 5px;
+    line-height: 1.6em
+}
+
+
+#sec2 .sec3Exp {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+#sec2 #legal .sec3Exp {
+    float: none;
+}
+
+#sec2 .sec3Exp h2:first-child {
+    font-size: 23px;
+    margin-top: 12px;
+    margin-bottom: 23px;
+}
+
+#sec2 .sec3Exp h2 {
+    font-size: 15px;
+    margin-top: 32px;
+    margin-bottom: 11px;
+    font-weight: bold;
+}
+
+#sec2 .container ul:first-child {
+    padding-left: 0;
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    margin-left: 0;
+}
+
+#sec2 .sec2Tab li {
+    display: inline-block;
+    font-weight: bold;
+}
+
+#sec2 .sec3Exp p {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+#sec2 .sec3Exp ul {
+    margin-left: 20px;
+}
+
+
+#sec2 .sec3Exp li {
+    display: list-item;
+    list-style-type: disc;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+
+
+#contact2 .contactForm {
+    padding: 23px 20px 40px 20px;
+    background-color: #eaf4ff;
+    border-top: 1px solid #CCC;
+}
+
+    #contact2 .contactForm p {
+        font-size: 13px;
+    }
+
+    #contact2 .contactForm .row div:first-child {
+        margin-bottom: 10px;
+    }
+
+
+#contact2 input, #contact2 textarea {
+    width: 100%;
+}
+
+#contact2 textarea {
+    min-height: 150px;
+}
+
+#contact2 .app-button {
+    float: right;
+}
+
+#contact2 .row1 {
+    margin-top: 25px;
+}
+
+#contact2 h3 {
+    font-size: 19px;
+}
+
+#contact2 .cwrap {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    margin-top: 8px
+}
+
+#contact2 {
+    padding-left: 0;
+    margin-bottom: 100px;
+}
+
+div.cFormEnc {
+    border: 1px solid #ccc;
+}
+
+#contact2 div.cFormEnc h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 21px;
+    margin: 0;
+    background-color: #eee;
+    background: linear-gradient(#f6f6f6,#e5e5e5);
+}
+
+#contact2 .contactDetail {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+    #contact2 .contactDetail .row {
+        margin-bottom: 5px;
+    }
+
+    #contact2 .contactDetail .col-xs-3 {
+        color: #616161;
+    }
+
+    #contact2 .contactDetail .col-xs-4, #contact2 .contactDetail .col-xs-8 {
+        padding-left: 0;
+    }
+
+    #contact2 .contactDetail .putMargin {
+        margin-bottom: 21px;
+    }
+
+#contact2 .cwrap2 {
+    margin-top: 37px;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+#contact2 .container #map {
+    width: 98%;
+    height: 215px;
+    background-color: #e8e8e8;
+}
+
+
+    #contact2 .container #map iframe {
+        position: relative;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+.sec1Lay h2 {
+    text-align: left;
+    padding-left: 14px;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    #app-nav {
+        margin-bottom: 0px;
+    }
+
+    #sec2 #legal {
+        width: 60%;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    #sec2 .sec3Exp {
+        font-size: 13px;
+    }
+
+    .sec1Lay h2 {
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 1.5em;
+        padding-top: 24px;
+    }
+
+    #contactForm {
+        padding-left: 15px;
+    }
+}
+
+
+
+.ab_wrapper {
+    /*background: url("../img/fog.jpg") ;*/
+    /*background-size: cover;*/
+    margin-top: -10px;
+}
+
+.cards {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#approach {
+    padding: 100px 0;
+}
+
+    #approach h2.section-heading {
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    #approach h3.section-subheading {
+        font-size: 16px;
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: none;
+        font-style: italic;
+        font-weight: 400;
+        margin-bottom: 35px;
+    }
+
+@media (min-width: 768px) {
+    #approach {
+        padding: 70px 0;
+    }
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+    .timeline:before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: "";
+        width: 1px;
+        background-color: #6d6d6d;
+        left: 40px;
+        margin-left: -1.5px;
+    }
+
+    .timeline > li {
+        margin-bottom: 50px;
+        position: relative;
+        min-height: 50px;
+    }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li .timeline-panel {
+            width: 100%;
+            float: right;
+            padding: 0 20px 0 100px;
+            position: relative;
+            text-align: left;
+        }
+
+            .timeline > li .timeline-panel:before {
+                border-left-width: 0;
+                border-right-width: 15px;
+                left: -15px;
+                right: auto;
+            }
+
+            .timeline > li .timeline-panel:after {
+                border-left-width: 0;
+                border-right-width: 14px;
+                left: -14px;
+                right: auto;
+            }
+
+        .timeline > li .timeline-image {
+            left: 0;
+            margin-left: 0;
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            z-index: 100;
+            background-color: #367dfe;
+            color: white;
+            border-radius: 100%;
+            border: 7px solid #f1f1f1;
+            text-align: center;
+        }
+
+            .timeline > li .timeline-image h4 {
+                font-size: 10px;
+                margin-top: 12px;
+                line-height: 14px;
+            }
+
+        .timeline > li.timeline-inverted > .timeline-panel {
+            float: right;
+            text-align: left;
+            padding: 0 20px 0 100px;
+        }
+
+            .timeline > li.timeline-inverted > .timeline-panel:before {
+                border-left-width: 0;
+                border-right-width: 15px;
+                left: -15px;
+                right: auto;
+            }
+
+            .timeline > li.timeline-inverted > .timeline-panel:after {
+                border-left-width: 0;
+                border-right-width: 14px;
+                left: -14px;
+                right: auto;
+            }
+
+        .timeline > li:last-child {
+            margin-bottom: 0;
+        }
+
+    .timeline .timeline-heading h4 {
+        margin-top: 0;
+        color: inherit;
+    }
+
+        .timeline .timeline-heading h4.subheading {
+            text-transform: none;
+        }
+
+    .timeline .timeline-body > p,
+    .timeline .timeline-body > ul {
+        margin-bottom: 0;
+    }
+
+@media (min-width: 768px) {
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline > li {
+        margin-bottom: 100px;
+        min-height: 100px;
+    }
+
+        .timeline > li .timeline-panel {
+            width: 41%;
+            float: left;
+            padding: 0 20px 20px 30px;
+            text-align: right;
+        }
+
+        .timeline > li .timeline-image {
+            width: 100px;
+            height: 100px;
+            left: 50%;
+            margin-left: -50px;
+        }
+
+            .timeline > li .timeline-image h4 {
+                font-size: 13px;
+                margin-top: 16px;
+                line-height: 18px;
+            }
+
+        .timeline > li.timeline-inverted > .timeline-panel {
+            float: right;
+            text-align: left;
+            padding: 0 30px 20px 20px;
+        }
+}
+
+@media (min-width: 992px) {
+    .timeline > li {
+        min-height: 150px;
+    }
+
+        .timeline > li .timeline-panel {
+            padding: 0 20px 20px;
+        }
+
+        .timeline > li .timeline-image {
+            width: 150px;
+            height: 150px;
+            margin-left: -75px;
+        }
+
+            .timeline > li .timeline-image h4 {
+                font-size: 18px;
+                margin-top: 30px;
+                line-height: 26px;
+            }
+
+        .timeline > li.timeline-inverted > .timeline-panel {
+            padding: 0 20px 20px;
+        }
+}
+
+@media (min-width: 1200px) {
+    .timeline > li {
+        min-height: 170px;
+    }
+
+        .timeline > li .timeline-panel {
+            padding: 0 20px 20px 100px;
+        }
+}
+
+.timeline-image > img {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*position: absolute;*/
+    z-index: 100;
+    background-color: #367dfe;
+    color: white;
+    border-radius: 100%;
+}
+
+main ul, main li {
+    list-style: disc;
+    padding: 0;
+    padding-left: 5px;
+    margin-left: 15px;
+    margin-bottom: 14px;
+}
+
+
+.seo-offer-area .section-title-seo-left h2 {
+    font-size: 27px;
+    color: #333;
+    line-height: 18px;
+    margin: 0;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.price-table {
+    background: #f4f4f4;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+
+.seo-offer-area .offer-image img {
+    width: 100%;
+}
+
+.seo-offer-area .section-title-seo-left h2:before {
+    background: #000000 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 90px;
+    bottom: -20px;
+}
+
+main p, main ul, main li {
+    font-size: 13px;
+    color: #505050;
+    line-height: 21px;
+}
+
+.single-megaland-service h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #323232;
+    transition: all ease-in-out 0.5s;
+}
+
+.section-title-seo h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #323232;
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+
+    .section-title-seo h2:before {
+        background: #000000 none repeat scroll 0 0;
+        content: "";
+        height: 1px;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 90px;
+        bottom: -20px;
+    }
+
+.bg {
+    background: #f4f4f4;
+}
+
+.bd-bottom {
+    border-bottom: 1px solid #CCC;
+}
+
+.team-image img {
+    border: 1px solid #6b6b6b;
+    padding: 3px;
+}
+
+.section-title-seo-left h4 {
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+
+.section-title-seo-left span {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.privacy h2, .terms h2 {
+    font-size: 17px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.intro-seo {
+    background: url(../images/op.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+    .intro-seo .seo-intro-content {
+        text-align: center;
+        padding: 100px 0;
+    }
+
+.intro .intro-content {
+    color: #fff;
+}
+
+.intro-seo .seo-intro-content .intro-content .intro-title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+
+.intro-seo .seo-intro-content .intro-content .intro-title h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.title span.section-devider {
+    position: relative;
+    display: inline-block;
+    color: #15a154;
+    margin: 2px 0 20px 0;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.title span.section-devider:before {
+    background: #323232;
+    content: "";
+    height: 1px;
+    left: 25px;
+    position: absolute;
+    top: 9px;
+    width: 180px;
+}
+
+.title span.section-devider:after {
+    background: #323232;
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: 25px;
+    top: 9px;
+    width: 180px;
+}
+
+.title h3 {
+    font-size: 22px;
+    font-weight: bold;
+}

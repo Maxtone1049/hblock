@@ -1,0 +1,146 @@
+.no-gutter {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.btnSubmit {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    background: #ef6100;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    padding: 9px 0;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+
+    .btnSubmit:hover {
+        background: #d26920;
+    }
+
+button .fa-spinner {
+    display: none;
+}
+
+
+
+.label-checkbox {
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer;
+}
+
+.label-checkbox::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 13px;
+    color: transparent;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    background: #fff;
+    border: 2px solid #2b78dd;
+    left: 0;
+    top: 48%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.input-checkbox:checked + .label-checkbox::before {
+    color: #2b78dd;
+}
+
+.chkbox-hide {
+    display: none;
+}
+
+
+
+#nav-generic {
+    margin-bottom: 25px;
+}
+
+.form-control, .btn, button {
+    border-radius: 0;
+}
+
+.container .row1 .bg {
+    background-color: #ececec;
+}
+
+#accountForm label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #8c8c8c;
+}
+
+#accountForm p.h5 {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 15px;
+}
+
+.selectric .label, .selectric-items li {
+    text-align: left;
+}
+
+@media (max-width: 1231px) {
+    .row1 .slide {
+        display: none;
+    }
+
+    .container .row1 .bg {
+        background: none;
+    }
+}
+
+@media (max-width: 920px) {
+
+    
+    #accountForm {
+        padding-top: 0 !important;
+    }
+
+    footer {
+
+        margin-top: 0 !important;
+
+    }
+}
+
+@media (max-width: 950px) {
+    #accountForm {
+        padding: 1.5rem !important;
+    }
+}
+
+.socialSignin {
+    margin-bottom: 25px;
+}
+
+.socialSignin a {
+    width: 100%
+}
+
+.socialSignin p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #6386ae;
+}

@@ -1,0 +1,259 @@
+* {
+    font-family: 'Open Sans',sans-serif,Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+#pitch {
+    padding: 0;
+    background: url(../images/real.jpg);
+    background-size: cover
+}
+
+h2,h3 {
+    font-family: 'Roboto','Open Sans',sans-serif,Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+body {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none
+}
+
+.logo {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 55px;
+    color: #FFF;
+    float: left;
+    padding: 13px 34px 0 28px;
+    border-top: 0;
+    margin: 0
+}
+
+.logo img {
+    height: 31px
+}
+
+.navLink {
+    text-decoration: none;
+    line-height: 56px;
+    color: #FFF;
+    padding: 8px 13px;
+    border-top: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 0 0 60px rgba(0,0,0,.6),0 1px 1px rgba(0,0,0,.6);
+    border-radius: 4px
+}
+
+.navLink:hover {
+    text-decoration: none;
+    background-color: #24bc68;
+    color: #FFF
+}
+
+nav-generic .nav-link {
+    text-shadow: 0 0 40px rgba(0,0,0,.6),0 1px 1px rgba(0,0,0,.6)
+}
+
+.nav-collapse {
+    float: right;
+    width: auto
+}
+
+header {
+    font-size: 14px
+}
+
+#search .content {
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 170px
+}
+
+#search h1 {
+    font-weight: 700;
+    font-size: 43px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 40px rgba(0,0,0,.6),0 1px 1px rgba(0,0,0,.6)
+}
+
+#search h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    text-shadow: 0 0 40px rgba(0,0,0,.6),0 1px 1px rgba(0,0,0,.6);
+    font-weight: normal
+}
+
+#searchbox {
+    padding: 5px;
+    background-color: white
+}
+
+#advFilter {
+    display: none
+}
+
+#advFilter a {
+    color: #FFF;
+    text-shadow: 0 0 40px rgba(0,0,0,.6),0 1px 1px rgba(0,0,0,.6);
+    text-decoration: underline
+}
+
+#searchbox button {
+    background-color: #24bc68;
+    color: #FFF;
+    border: 1px solid #FFF;
+    box-shadow: none;
+    font-style: normal;
+    border-radius: 0
+}
+
+#searchbox button:hover {
+    background-color: blue
+}
+
+#search .nav-item a.active {
+    background-color: #3399ff;
+    opacity: 1
+}
+
+#search .nav-item a:hover {
+    background-color: #3399ff;
+    opacity: 1
+}
+
+#search .nav-item:first-child {
+    border-radius: 4px 0 0 !important
+}
+
+#search .nav-item:last-child {
+    border-radius: 0 4px 0 0
+}
+
+#search .nav-item a {
+    border-radius: 0;
+    border: 0;
+    font-weight: 600;
+    border-bottom: 0;
+    color: #FFF;
+    background-color: #000;
+    opacity: .9;
+    padding: 9px 60px;
+    text-shadow: 0 0 50px rgba(0,0,0,.6),0 1px 1px rgba(0,0,0,.6)
+}
+
+#search .nav-item.middle {
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF
+}
+
+#searchbox input {
+    box-shadow: none;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.action h4 {
+    font-size: 17px
+}
+
+.action p {
+    font-size: 14px
+}
+
+h3.header {
+    font-size: 19px
+}
+
+#media h5,#pros h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 13px
+}
+
+#media p {
+    font-size: 15px;
+    width: 80%
+}
+
+#pros p {
+    font-size: 16px
+}
+
+#pros {
+    background-color: #f2f2f2
+}
+
+#pros h4 {
+    font-weight: 800
+}
+
+.app-button {
+    padding: 8px 33px;
+    font-size: 12px;
+    color: green;
+    background-color: #FFF;
+    border: 1px solid green;
+    font-weight: bold
+}
+
+.app-button:hover {
+    background-color: #e7f0f9;
+    color: inherit
+}
+
+.action .input-group {
+    border: 1px solid #24bc68 !important;
+    padding: 2px 3px
+}
+
+.action .input-group button {
+    background-color: #24bc68;
+    color: #FFF;
+    border-radius: 0
+}
+
+.slick-next {
+    right: 12px
+}
+
+.slick-prev {
+    left: 12px
+}
+
+.slick-arrow {
+    text-shadow: 0 0 20px rgba(0,0,0,0.7),0 4px 3px rgba(0,0,0,.7)
+}
+
+.slick-slide {
+    min-width: 255px !important
+}
+
+.footer-basic-centered {
+    margin-top: 0
+}
+
+@media(max-width: 900px) {
+    #search .nav-item a {
+        padding:5px 30px
+    }
+
+    #search .content {
+        margin-top: 56px;
+        margin-bottom: 116px
+    }
+
+    #search h1 {
+        font-size: 34px
+    }
+
+    #search h2 {
+        font-size: 19px
+    }
+
+    #agent {
+        margin-top: 51px
+    }
+}
